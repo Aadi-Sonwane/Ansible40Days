@@ -1,0 +1,33 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore crash logs
+crash.log
+crash.*.log
+
+# Ignore sensitive files
+*.pem
+*.key
+*.pfx
+*.cer
+*.env
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
